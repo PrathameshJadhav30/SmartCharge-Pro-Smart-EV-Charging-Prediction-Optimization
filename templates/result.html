@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charging Time Prediction Results</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">EV Charging</a></div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/#charging-section">Prediction</a></li>
+            <li><a href="/#features-section">Features</a></li>
+            <li><a href="/#contact-section">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Results Section -->
+    <section class="result-section">
+        <div class="result-card">
+            <h1>Charging Time Prediction Results</h1>
+            <p class="prediction">🔋 Estimated Charging Time: <strong>{{ prediction }}</strong> minutes</p>
+
+            <h2>⚡ Optimization Suggestions:</h2>
+            <ul class="suggestion-list">
+                {% for suggestion in suggestions %}
+                    <li>✔ {{ suggestion }}</li>
+                {% endfor %}
+            </ul>
+
+            <a href="/#charging-section" class="btn">🔄 Try Again</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 EV Charging Time. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

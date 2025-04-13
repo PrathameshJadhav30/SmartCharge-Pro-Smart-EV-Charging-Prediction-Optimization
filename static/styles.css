@@ -1,0 +1,218 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffffff, #eafaf1);
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2F4F4F;
+    padding: 15px 50px;
+    position: static;
+    width: 95%;
+    top: 0;
+    z-index: 1000;
+}
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 150px 20px;
+    background: url('Assest/Pdf_Knowlege_Hub') no-repeat center;
+    background-size: cover;
+    color: rgb(14, 13, 13);
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.hero p {
+    font-size: 20px;
+}
+.hero .btn {
+    display: inline-block;
+    background-color: #4fd153;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.hero .btn:hover {
+    background-color: #388E3C;
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+}
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    width: 300px;
+    padding: 20px;
+    background: #e0f2f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.card h3 {
+    color: #2F4F4F;
+}
+
+/* Form Section */
+.prediction-form {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f9fa;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+form input, form select {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #e0d8d8;
+    border-radius: 5px;
+}
+form .btn {
+    display: block;
+    width: 100%;
+    background-color: #4CAF50;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+form .btn:hover {
+    background-color: #388E3C;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+}
+.contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #2F4F4F;
+    color: white;
+}
+/* Results Section */
+.result-section {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f1f8f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.result-card {
+    background: white;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.result-card h1 {
+    color: #2F4F4F;
+    font-size: 26px;
+}
+
+.prediction {
+    font-size: 22px;
+    color: #388E3C;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #2F4F4F;
+    font-size: 20px;
+}
+
+.suggestion-list {
+    list-style: none;
+    padding: 0;
+}
+
+.suggestion-list li {
+    background: #eafaf1;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.result-card .btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.result-card .btn:hover {
+    background-color: #388E3C;
+}
